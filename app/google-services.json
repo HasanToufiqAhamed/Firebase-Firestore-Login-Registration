@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "596667637016",
+    "project_id": "task-e53f0",
+    "storage_bucket": "task-e53f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596667637016:android:ad0d3ae14d6936b121926d",
+        "android_client_info": {
+          "package_name": "com.hasantoufiqahamed.firebasefirestoreloginregistration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596667637016-k2go1m0bi9hiohc72vcs70pnmaql47p3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs4YcP-ARKagY2xvyFIg9AglSHuWGi7fI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596667637016-k2go1m0bi9hiohc72vcs70pnmaql47p3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

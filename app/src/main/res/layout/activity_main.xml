@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Sign In"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+        android:layout_marginBottom="30sp"/>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/signInEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email *"
+        android:textColorHint="@color/text_third_color"
+        style="@style/LoginTextInputLayoutStyle"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/signInPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password *"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/text_third_color"
+        style="@style/LoginTextInputLayoutStyle"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/signInButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Sign In"/>
+
+    <TextView
+        android:id="@+id/noAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Did not have account"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>
